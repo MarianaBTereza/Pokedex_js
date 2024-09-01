@@ -4,19 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <!--links do projetos -->
     <link rel="icon" href="./src/assets/favicons/favicon-16x16.png">
     <link rel="stylesheet" href="./src/css/main.css">
-    <script></script>
+    <!-- Javascpit do projeto -->
+    <script  defer src="./src/js/main.js" ></script>
+    
     <title>Pokedex</title>
 
 </head>
 
 <body>
     <main>
-        <img src="" alt="pokemon" class="pokemon__image">
+        <img src="#" alt="pokemon" class="pokemon__image">
         
         <h1 class="pokemon__data">
             <span class="pokemon__number"></span>
+            <span class="pokemon__name"></span>
             
         </h1>
         <form class="form">
@@ -27,6 +31,10 @@
             required
             >
         </form>
+      <div class="buttons">
+        <div class="button button btn-prev"> Prev &lt;</div>
+        <div class="button button btn-next"> Next &gt; </div>
+      </div>
         
         <img src="./src/assets/img/pokedex.png" alt="pokedex" class="pokedex">
     </main>
